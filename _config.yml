@@ -45,3 +45,9 @@ exclude:
 collections:
   noticias:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/logo.jpg

@@ -21,7 +21,8 @@
 title: Como as vacinas causam autismo?
 email: endersonster@gmail.com
 logo: /images/logo.jpg
-description: >- # this means to ignore newlines until "baseurl:"
+image: /images/logo.jpg
+description:
   A verdade sobre as vacinas, e como elas causam autismo...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://comovacinascausamautismo.com.br" # the base hostname & protocol for your site, e.g. http://example.com

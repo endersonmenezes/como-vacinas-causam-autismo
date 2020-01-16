@@ -1,0 +1,49 @@
+---
+layout: home
+---
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>ELAS NÃO CAUSAM</h1>
+  <iframe src="https://giphy.com/embed/9u1J84ZtCSl9K" width="480" height="329" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animal-frog-relax-9u1J84ZtCSl9K">via GIPHY</a></p>
+  <p><strong>pode ficar tranquilo!</strong></p>
+  <p>Vacine e influêncie a vacina de todas as crianças que você conhece! <br> A ciência cuida para que as vacinas continuem funcionando e não causem doenças!</p>
+  <p>
+    <a target="_blank" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.comovacinascausamautismo.com.br">Compartilhe essa ideia pelo Facebook!</a>
+  </p>
+</div>
+
+<div class="container">
+
+  <hr>
+  <h3>Separamos algumas noticias:</h3>
+  <hr>
+
+  {% assign noticias = site.noticias %}
+  {% for item in noticias %}
+    <p>
+      {{item.titulo}} <strong>({{item.data}})</strong> <br>
+      {{item.subtitulo}}
+      <a href="{{item.url_externo}}">Clique para acessar!</a>
+    </p>
+    <hr>
+	{% endfor %}
+
+  <p>
+    Projeto desenhado e sustentado com 💕 <br>
+    <a href="https://github.com/endersonmenezes">Enderson Menezes</a> <br>
+    <a href="https://github.com/endersonmenezes/como-vacinas-causam-autismo">Se você quiser contribuir, qualquer PR será bem vindo! </a>
+  </p>
+</div>
